@@ -1,13 +1,4 @@
-/**
- * Rekursiv binary search
- * @param {any} search - Værdien vi leder efter
- * @param {Array} values - Sorteret array
- * @param {number} start - Startindex for søgning
- * @param {number} end - Slutindex for søgning
- * @param {number} iterations - Antal iterationer, start med 0
- * @param {Function} comparator - Valgfri sammenligningsfunktion (a, b) => number
- * @returns {Object} { found: boolean, index: number, iterations: number }
- */
+
 
 function binarySearchRecursive(search, values, start, end, iterations = 0, comparator) {
     console.group(`binarySearchRecursive call #${iterations + 1}`);
